@@ -4,10 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidHelper.Android", "AndroidHelper\AndroidHelper.Android\AndroidHelper.Android.csproj", "{BBA697D3-9E8E-43A0-AC65-ABDF79DC08CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1C179B4-F555-4D68-B161-4DA1D0A74BB3} = {D1C179B4-F555-4D68-B161-4DA1D0A74BB3}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidHelper.iOS", "AndroidHelper\AndroidHelper.iOS\AndroidHelper.iOS.csproj", "{D1C179B4-F555-4D68-B161-4DA1D0A74BB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidHelper", "AndroidHelper\AndroidHelper\AndroidHelper.csproj", "{4293B508-A280-4E6C-8DAE-D5430A5BDBF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidHelper", "AndroidHelper\AndroidHelper\AndroidHelper.csproj", "{4293B508-A280-4E6C-8DAE-D5430A5BDBF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
